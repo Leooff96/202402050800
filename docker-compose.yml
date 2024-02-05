@@ -1,0 +1,9 @@
+services:
+  service1:
+
+    image: service1:dev
+    env_file:
+      - dev.jvm.conf
+
+  service2:
+    image: service2:dev
